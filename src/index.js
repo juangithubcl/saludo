@@ -19,7 +19,7 @@ class Saludo extends React.Component {
     render(){
         return (
             <div>
-                <h1>Hola {this.props.nombre + ' ' + this.props.apellido}, soy un componente de clase.</h1>
+                <h1>Hola {this.props.nombre + ' ' + this.props.apellido}, soy un componente versionado.</h1>
                 <h2>Son las {this.state.hora}</h2>
                 <h2>Son las {this.state.hora}</h2>
                 <button onClick={this.actualizarHora}>Actualizar hora</button>
